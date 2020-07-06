@@ -1,0 +1,42 @@
+.instagram-images {
+  display: block;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  margin-bottom: 6px;
+}
+
+.instagram-images:last-child {
+  margin-bottom: 0px;
+}
+
+.instagram-container {
+  vertical-align: top;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 12px;
+  overflow: hidden;
+  border-radius: 0px;
+  padding-top: 6px;
+  background-color: #ffffff;
+}
+
+@media screen and (max-width: 576px) {
+
+  .instagram-main-container {
+    margin-top: 12px;
+  }
+
+  .instagram-container {
+    background-color: #ffffff;
+    margin-bottom: 0px;
+    padding-bottom: 6px;
+  }
+
+  .instagram-container {
+    box-shadow: none;
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-right: 12px;
+  }
+}

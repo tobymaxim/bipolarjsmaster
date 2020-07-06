@@ -1,0 +1,119 @@
+/*Label overview*/
+
+.label-images-container {
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    display: block;
+}
+
+.label-images {
+    max-width: 33.3333333333%;
+    margin-bottom: -7px;
+}
+
+.label-image-column {
+    flex: 50%;
+    display: flex;
+    max-width: 33.3333333333%;
+}
+
+.label-image-caption {
+    font-size: 1rem;
+    margin-top: 6px;
+    content: "";
+    flex: 50%;
+    clear: both;
+}
+
+.label-image-caption-left {
+    text-align: left;
+}
+
+.label-image-caption-right {
+    text-align: right;
+}
+
+
+
+/*BPLR Pages*/
+
+.label-content {
+    text-align: justify;
+    margin-top: 0px;
+    width: 100%;
+}
+
+.label-image {
+    width: 275px;
+    height: 275px;
+    float: left;
+    margin-right: 12px;
+    opacity: 1;
+	-webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+}
+
+.label-image:hover {
+    opacity: 0.85;
+}
+
+.label-text {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.bandcamp-iframe {
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 12px;
+    height: 275px;
+}
+
+.bandcamp-iframe-self {
+    border: 0;
+    width: 100%;
+    height: 275px;
+}
+
+.label-youtube-iframe {
+    margin-bottom: -6px;
+}
+
+.video-credits-text {
+    margin-top: 12px;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    margin-bottom: 9px;
+    margin-right: 6px;
+    margin-left: 6px;
+}
+
+@media screen and (max-width: 576px) {
+
+.label-image {
+    width: 100%;
+    height: auto;
+}
+
+.bandcamp-iframe {
+    display: inline-block;
+    width: 100%;
+    margin-top: 12px;
+    height: 275px;
+}
+
+.bandcamp-iframe-self {
+    border: 0;
+    width: 100%;
+    height: 275px;
+    margin-bottom: 9px;
+}
+
+.label-text {
+    margin-bottom: 12px;
+}
+
+
+
+}

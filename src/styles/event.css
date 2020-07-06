@@ -1,0 +1,49 @@
+.event-sociallinks {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    float: left;
+    height: 50px;
+    margin-right: 6.8px;
+    display: flex;
+}
+
+.event-credits {
+    font-size: 0.8rem !important;
+    font-family: Montsserat, sans-serif !important;
+    margin-top: 0px;
+    display: inline-block;
+    line-height: 1.35rem;
+    margin-bottom: 6px;
+    font-weight: 400;
+}
+
+.event-credits-mobile {
+    display: none;
+}
+
+.eventvideo {
+    margin-right: 6px;
+}
+
+
+
+@media screen and (max-width:576px) {
+
+.events-post-content {
+    margin-top: -24px !important;
+    text-align: justify;
+}
+
+.event-credits {
+    display: none;
+}
+
+.event-credits-mobile {
+    font-size: 0.8rem !important;
+    font-family: Montsserat, sans-serif !important;
+    display: inline-block;
+    line-height: 1.35rem;
+    margin-bottom: 6px;
+}
+
+}

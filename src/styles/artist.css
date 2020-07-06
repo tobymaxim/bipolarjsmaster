@@ -1,0 +1,271 @@
+.artists-container {
+    display: flex;
+}
+
+.artists-container-left {
+    width: 236px;
+    margin-right: 12px;
+}
+
+.artists-container-right {
+    margin-right: 3px;
+    margin-left: 3px;
+    margin-top: 3px;
+
+}
+
+.artists-about-text {
+    margin-bottom: 4px; 
+    margin-top: 0px !important;
+}
+
+.artist-about-container {
+    margin-top: -2px;
+}
+
+.artists-image {
+    width: 220px; 
+    float: left;
+    margin-right: 12px;
+}
+
+.artists-post-content {
+    text-align: justify;
+}
+
+.artists-sociallinks-container {
+
+    align-items: center;
+    width: 236px;
+    background-color: #ffffff;
+    display: flex;
+}
+
+.artists-sociallinks {
+    margin-top: 6px;
+    float: left;
+    height: 50px;
+    margin-right: 12px;
+    display: flex;
+}
+
+.artists-sociallinks:last-child {
+    margin-right: 0px;
+}
+
+.artists-youtube-iframe {
+    margin: 0;
+    width: 100%;
+    height: 350px;
+    margin-bottom: 6px;
+    display: block;
+}
+
+.artists-youtube-iframe-poetry {
+    margin: 0;
+    width: 100%;
+    height: 350px;
+    margin-bottom: 6px;
+    display: inline-block;
+    margin-bottom: 12px;
+}
+
+.artists-bandcamp-iframe {
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 12px;
+    height: 275px;
+    width: 100%;
+}
+
+.artists-soundcloud-container {
+    margin-bottom: -18px;
+    width: 100%;
+}
+
+.artists-soundcloud-iframe {
+    margin-bottom: 6px;
+    width: 100%;
+}
+
+.artists-titles {
+    width: 100%;
+    font-size: 1.125rem;
+    margin: 0;
+    line-height: 1.125;
+    font-weight: 730;
+    text-transform: uppercase;
+    padding-bottom: 6px;
+}
+
+.artists-hr {
+    margin-top: 9px;
+    margin-bottom: 6px;
+    background-color: #eee;
+    width: 100%;
+}
+
+.artist-blog-post {
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.1);
+    border: solid 1px rgba(0,0,0,.2);
+    border-radius: 0px;
+    padding: 12px;
+    padding-top: 12px;
+    padding-right: 18px;
+    background-color: #ffffff;
+}
+  .artist-blog-post:hover {
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.blackbox-pastdates {
+    background-color: black;
+}
+
+.artist-tag-container {
+    padding-top: 0px;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    display: inline-block;
+}
+
+.artist-credits {
+    font-size: 0.8rem !important;
+    font-family: Montsserat, sans-serif !important;
+    margin-top: 20px;
+    display: inline-block;
+    line-height: 1.35rem;
+    margin-bottom: 2px;
+    font-weight: 400;
+}
+
+.artist-credits-mobile {
+    display: none;
+}
+
+.button-presskit {
+    height: 50px;
+    margin-right: 12px;
+    width: 100%;
+    display: block;
+  }
+
+.button-presskit:hover {
+    background-color: #000000;
+    border-color: none;
+}
+
+.button-general {
+    margin-top: 12px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    align-content: center;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.1);
+    border: solid 1px rgba(0,0,0,.2);
+    width: 100%;
+    display: grid;
+    font-weight: 560;
+}
+
+.button-general:hover {
+    border-color: none;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
+ 
+/* ART */
+
+.art-projects {
+    width: 100%;
+}
+
+.art-imagegallery {
+    opacity: 1;
+	-webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+    width: 100%;
+}
+
+.art-imagegallery:hover {
+    opacity: 0.85;
+}
+
+
+@media screen and (max-width: 576px) {
+
+.artist-credits {
+    display: none;
+}
+
+.artist-credits-mobile {
+    font-size: 0.8rem !important;
+    font-family: Montsserat, sans-serif !important;
+    display: inline-block;
+    line-height: 1.35rem;
+    margin-bottom: 6px;
+    margin-left: 0px;
+}
+
+.artists-container {
+    display: grid;
+}
+
+.artists-container-left {
+    width: 100%;
+    margin-right: 12px;
+}
+
+.artists-container-right {
+    width: 100%;
+}
+
+.artists-image {
+    width: 100%;
+}
+
+.artists-about-text {
+    margin-top: 12px;
+    margin-bottom: 6px;
+    margin-right: 6px;
+    margin-left: -6px;
+}
+
+.artist-about-container {
+    margin-top: 30px;
+}
+
+.artists-youtube-iframe {
+    margin-bottom: 6px;
+}
+
+.blackbox-pastdates {
+    margin-top: -12px;
+}
+
+.artist-tag-container {
+    margin-bottom: 4px;
+    margin-left: -6px;
+}
+
+.artists-post-content {
+    margin-top: -6px;
+}
+
+.artists-soundcloud-iframe {
+    margin-bottom: 0px;
+}
+
+
+.artists-soundcloud-iframe:last-child {
+    margin-bottom: 4px;
+}
+
+/* ART */
+.art-imagegallery {
+    width: 100%;
+}
+
+}

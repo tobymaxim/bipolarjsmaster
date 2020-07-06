@@ -1,0 +1,178 @@
+/*ICONS*/
+
+.blackbox-sociallinks {
+  background-color: black;
+  display: none;
+}
+
+.sociallinks {
+    float: left;
+    height: 50px;
+    margin-right: 12px;
+  }
+.sociallinks:last-child {
+  margin-right: 0px;
+  }
+.sociallinks-container {
+  margin-top: 0px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: left;
+  width: 100%;
+  background-color: #ffffff;
+  }
+
+.facebook-icon {
+  background-position: center;
+  height: 50px;
+  width: 50px;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.1);
+  border: solid 1px rgba(0,0,0,.2);
+  background-image: url('http://54499171.swh.strato-hosting.eu/bipolarjs/wp-content/uploads/2020/04/icn-facebook.svg');
+  }
+.facebook-icon:hover {
+  height: 50px;
+  width: 50px;
+  border: 0px;
+  background-image: url('http://54499171.swh.strato-hosting.eu/bipolarjs/wp-content/uploads/2020/04/icn-facebook-hover.svg')
+  }
+.bandcamp-icon {
+  background-position: center;
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  background-image: url('http://54499171.swh.strato-hosting.eu/bipolarjs/wp-content/uploads/2020/04/icn-bandcamp.svg');
+  background-position: center;
+  background-size: 2.8rem;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.1);
+  border: solid 1px rgba(0,0,0,.2);
+  }
+.bandcamp-icon:hover {
+  height: 50px;
+  width: 50px;
+  border: 0px;
+  background-image: url('http://54499171.swh.strato-hosting.eu/bipolarjs/wp-content/uploads/2020/04/icn-bandcamp-hover.svg')
+  }
+.soundcloud-icon {
+  background-position: center;
+  height: 50px;
+  width: 50px;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.1);
+  border: solid 1px rgba(0,0,0,.2);
+  background-image: url('http://54499171.swh.strato-hosting.eu/bipolarjs/wp-content/uploads/2020/04/icn-soundcloud.svg')
+  }
+.soundcloud-icon:hover {
+  height: 50px;
+  width: 50px;
+  border: 0px;
+  background-image: url('http://54499171.swh.strato-hosting.eu/bipolarjs/wp-content/uploads/2020/04/icn-soundcloud-hover.svg')
+  }
+.instagram-icon {
+  background-position: center;
+  height: 50px;
+  width: 50px;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.1);
+  border: solid 1px rgba(0,0,0,.2);
+  background-image: url('http://54499171.swh.strato-hosting.eu/bipolarjs/wp-content/uploads/2020/04/icn-instagram.svg')
+  }
+.instagram-icon:hover {
+  height: 50px;
+  width: 50px;
+  border: 0px;
+  background-image: url('http://54499171.swh.strato-hosting.eu/bipolarjs/wp-content/uploads/2020/04/icn-instagram-hover.svg')
+  }
+
+.residentadvisor-icon {
+  background-position: center;
+  height: 50px;
+  width: 50px;
+  border: 0px;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.1);
+  border: solid 1px rgba(0,0,0,.2);
+  background-image: url('http://54499171.swh.strato-hosting.eu/bipolarjs/wp-content/uploads/2020/04/icn-residentadvisor.svg')
+  }
+.residentadvisor-icon:hover {
+  height: 50px;
+  width: 50px;
+  border: 0px;
+  background-image: url('http://54499171.swh.strato-hosting.eu/bipolarjs/wp-content/uploads/2020/04/icn-residentadvisor-hover.svg')
+  }
+.link-icon {
+  background-position: center;
+  height: 50px;
+  width: 50px;
+  border: 0px;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.1);
+  border: solid 1px rgba(0,0,0,.2);
+  background-image: url('http://54499171.swh.strato-hosting.eu/bipolarjs/wp-content/uploads/2020/04/icn-link.svg')
+  }
+.link-icon:hover {
+  height: 50px;
+  width: 50px;
+  border: 0px;
+  background-image: url('http://54499171.swh.strato-hosting.eu/bipolarjs/wp-content/uploads/2020/04/icn-link-hover.svg')
+  }
+.tumblr-icon {
+  background-position: center;
+  height: 50px;
+  width: 50px;
+  border: 0px;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.1);
+  border: solid 1px rgba(0,0,0,.2);
+  background-image: url('http://54499171.swh.strato-hosting.eu/bipolarjs/wp-content/uploads/2020/04/icn-tumblr.svg')
+  }
+.tumblr-icon:hover {
+  height: 50px;
+  width: 50px;
+  border: 0px;
+  background-image: url('http://54499171.swh.strato-hosting.eu/bipolarjs/wp-content/uploads/2020/04/icn-tumblr-hover.svg')
+  }
+.mail-icon {
+  background-position: center;
+  height: 50px;
+  width: 50px;
+  border: 0px;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.1);
+  border: solid 1px rgba(0,0,0,.2);
+  background-image: url('http://54499171.swh.strato-hosting.eu/bipolarjs/wp-content/uploads/2020/04/icn-mail.svg')
+  }
+.mail-icon:hover {
+  height: 50px;
+  width: 50px;
+  border: 0px;
+  background-image: url('http://54499171.swh.strato-hosting.eu/bipolarjs/wp-content/uploads/2020/04/icn-mail-hover.svg')
+  }
+
+  
+@media screen and (max-width: 576px) {
+
+.sociallinks-main-container {
+  margin-bottom: 0px;
+}
+
+.sociallinks-container {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 18px;
+  padding-left: 12px;
+  padding-top: 18px;
+  justify-content: left;
+  align-items: center;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.1);
+  border: solid 1px rgba(0,0,0,.2);
+}
+
+.blackbox-sociallinks {
+  background-color: black;
+  display: block;
+}
+
+.sociallinks {
+  margin-right: 12px;
+  margin-top: -6px;
+}
+
+
+}
