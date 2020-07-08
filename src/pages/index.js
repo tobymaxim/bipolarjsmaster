@@ -1,19 +1,42 @@
+import { graphql } from "gatsby"
 import React from "react"
-import { graphql, } from "gatsby"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import "../styles/index.css"
 import Blogpost from "../components/blogpost"
-import Nextdates from "../components/Nextdates"
 import Instagram from "../components/Instagram"
-import Sociallinks from "../components/Sociallinks"
-import RegistrationMobile from "../components/RegistrationMobile"
+import Layout from "../components/layout"
+import Nextdates from "../components/Nextdates"
 import RegistrationDesktop from "../components/RegistrationDesktop"
+import RegistrationMobile from "../components/RegistrationMobile"
+import SEO from "../components/seo"
+import Sociallinks from "../components/Sociallinks"
+import "../styles/index.css"
 
 const IndexPage = ({ data }) => (
+  
   <Layout data={data}>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+
+    <div className="v-header container">
+      <div className="fullscreen-video-wrap">
+        <video muted className="video-wraper" src="http://54499171.swh.strato-hosting.eu/bipolarjs/wp-content/uploads/2020/07/-DMT_visuals.mp4" autoplay="true" loop="true" ></video>
+      </div>
+      <div className="header-overlay"></div>
+      <div class="header-content">
+        <img className="cover-logo" src="http://54499171.swh.strato-hosting.eu/bipolarjs/wp-content/uploads/2020/07/bplr-logo.svg"></img>
+
+        <div class="scroll-down"><div class="chevron"></div><div class="chevron"></div><div class="chevron"></div><span class="scroll-down-text">Scroll down</span></div>
+
+        <h1 className="h1-intro">BIPØLAR.</h1>
+        <p className="introtext">Lorem ipsum dolor, sit amet consecuter asdogier elit. Inveotre temora tempore voluptate, aliqjer djsdir sdksd gjdgjdf fdaf. </p>
+      </div>
+    </div>
+   
     <div className="main-container">
+      
+      <div className="video-teaser">
+
+
+
+      </div>
       <div className="left-container">
         <RegistrationMobile />
         <div className="blackbox"><h1 className="headline1">News</h1></div>
