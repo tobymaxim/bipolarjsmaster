@@ -3,8 +3,6 @@
   width: 100%;
   position: fixed;
   box-shadow: 0 0px 10px 1px rgba(0, 0, 0, 0.8);
-  z-index: 500;
-
 }
 
 .header {
@@ -16,8 +14,7 @@
 }
 
 .header-video-container {
-  z-index: 300;
-  margin-bottom: -6px;
+
 }
 
 video {
@@ -42,9 +39,9 @@ video {
   display: flex;
   justify-content: space-between;
   max-width: 1180px;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-top: 13px;
+  padding-left: 0px;
+  padding-right: px;
+  padding-top: 5px;
   padding-bottom: 5px;
 }
 
@@ -83,6 +80,7 @@ video {
 
 .desktop-navbar {
   display: block;
+  margin-top: -150px;
 }
 
 .mobile-navbar {
